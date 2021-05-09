@@ -1,0 +1,9 @@
+
+spring:
+  datasource:
+    url: jdbc:tc:postgresql:12.5:///
+    platform: postgres
+    driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver
+    initialization-mode: always
+
+
